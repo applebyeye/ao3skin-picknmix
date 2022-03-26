@@ -1,0 +1,127 @@
+/*Set background image*/
+#outer {
+  background: url("https://64.media.tumblr.com/e3494e15d10a4d2b24fe82781f2cb833/7a329f0ba6f6d74c-dc/s2048x3072/48604acc21f2080affbb4fa173bfdc080ec1a852.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/*Set main background*/
+#main {
+  background: #111144;
+  max-width: 90%;
+  opacity: 0.9;
+}
+
+/*Change all font, add boldness*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+body,
+blockquote,
+pre,
+textarea,
+.datetime,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.filters .expander,
+.bookmark .user .meta,
+a.work,
+span.symbol,
+.splash .news .meta,
+select {
+  font-family: 'Chalkboard SE', 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;
+  font-weight: bold !important;
+  border-bottom: none;
+}
+
+/*Define all main buttons*/
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input,
+select,
+button,
+.current,
+.actions label {
+  background: #3344aa;
+  border-color: #3344aa;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/*Remove hover effects & shadows*/
+* {
+box-shadow: none !important;
+text-shadow: none !important;
+}
+
+/*Curved corner border for blurb, filters/general boxes, comment box, comments, meta*/
+li.blurb,
+fieldset,
+.comment,
+li.comment,
+dl.meta {
+  border-color: #3344aa;
+  border-radius: 1em;
+}
+
+/*Curved corner border for tags*/
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 0px 2px;
+  margin: 2px -1px;
+  background: #3344aa;
+  border: 1px solid #3344aa;
+  border-radius: 5px;
+}
+
+/*Make dropdown menus tight*/
+#header .dropdown .menu {
+  width: min-content;
+}
+
+/*Keep word breaks within bounds*/
+.tags li a {
+  word-break: break-word;
+}
+
+/*Shorten fandom tags with scroll bar*/
+li.blurb .fandoms {
+  max-height: 1.75em;
+  overflow-y: auto;
+}
+
+/*Shorten main tags with scroll bar*/
+li.blurb .tags {
+  max-height: 7.75em;
+  overflow-y: auto;
+}
+
+/*Correct fandom tag spacing*/
+li.blurb .header h5.heading {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/*Hide comments count, kudos count, bookmarks count, hits count*/
+.comments,
+.kudos,
+.bookmarks,
+.hits {
+  display: none !important;
+}
