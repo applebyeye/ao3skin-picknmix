@@ -1,0 +1,45 @@
+/*Hide work*/
+.work-xxxxxxxx {
+  display: none !important;
+}
+
+/*Hide author*/
+.user-xxxxxxxx {
+  display: none !important;
+}
+
+/*Hide meta*/
+.meta {
+  display: none !important;
+}
+
+/*Hide summary*/
+.preface .summary {
+  display: none;
+}
+
+/*Hide author notes*/
+.preface .notes {
+  display: none;
+}
+
+/*Make author notes italic*/
+.preface .notes {
+  font-style: italic;
+}
+
+/*Change preface background*/
+.preface {
+  background: #363636;
+  border-radius: 0.5em;
+}
+
+/*Hide kudos history*/
+p.kudos {
+  display: none;
+}
+
+/*Hide feedback*/
+#feedback {
+  display: none;
+}
