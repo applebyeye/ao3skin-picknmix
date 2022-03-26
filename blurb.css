@@ -1,0 +1,135 @@
+/*Hide tag commas*/
+.commas li:after {
+  content: none;
+}
+
+/*Unbold warning tags*/
+li.warnings strong {
+  font-weight: normal;
+}
+
+/*Unbackground relationship tags*/
+li.relationships a {
+  background: none;
+}
+
+/*Hide datetimes*/
+li.blurb .datetime {
+ display: none;
+}
+
+/*Hide fandom tags*/
+li.blurb .header h5.heading {
+  display: none;
+}
+
+/*Hide warning, relationship, character, freeform tags*/
+li.blurb .tags {
+  display: none;
+}
+
+/*Hide warning tags*/
+li.blurb .warnings {
+  display: none;
+}
+
+/*Hide relationship tags*/
+li.blurb .relationships {
+  display: none;
+}
+
+/*Hide character tags*/
+li.blurb .characters {
+  display: none;
+}
+
+/*Hide freeform tags*/
+li.blurb .freeforms {
+  display: none;
+}
+
+/*Hide summary*/
+li.blurb blockquote {
+  display: none;
+}
+
+/*Format blurb*/
+li.blurb {
+  background: #013787;
+  border: 1px solid #013787;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+/*Format within blurb*/
+.blurb .header,
+.blurb .tags,
+.blurb blockquote {
+  background: #013787;
+  border: 1px solid #013787;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+/*Highlight warning tags*/
+li.warnings a.tag {
+  color: red;
+}
+
+/*Highlight choose warning tags*/
+li.warnings a.tag[href*=Choose] {
+  color: red;
+}
+
+/*Highlight apply warning tags*/
+li.warnings a.tag[href*=Apply] {
+  color: red;
+}
+
+/*Highlight rape warning tags*/
+li.warnings a.tag[href*=Rape] {
+  color: red;
+}
+
+/*Highlight underage warning tags*/
+li.warnings a.tag[href*=Underage] {
+  color: red;
+}
+
+/*Highlight violence warning tags*/
+li.warnings a.tag[href*=Violence] {
+  color: red;
+}
+
+/*Highlight death warning tags*/
+li.warnings a.tag[href*=Death] {
+  color: red;
+}
+
+/*Landmark warning tags*/
+ul.tags li.warnings:first-child:before {
+  content: "Warning ";
+  color: #ff93be;
+  font-weight: bold;
+}
+
+/*Landmark relationship tags*/
+li.warnings + li.relationships:before {
+  content: " Relationship ";
+  color: #ff93be;
+  font-weight: bold;
+}
+
+/*Landmark character tags*/
+li.relationships + li.characters:before {
+  content: " Character ";
+  color: #ff93be;
+  font-weight: bold;
+}
+
+/*Landmark freeform tags*/
+li.characters + li.freeforms:before {
+  content: " Freeform ";
+  color: #ff93be;
+  font-weight: bold;
+}
