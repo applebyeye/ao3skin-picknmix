@@ -1,0 +1,21 @@
+/*Hide filter box*/
+.filters {
+  display: none;
+}
+
+/*Set include section background*/
+.filters .include.tags.group {
+  background: rgba(109,204,130,.14);
+  box-shadow: 0 0 8px 5px rgba(109,204,130,.14);
+}
+
+/*Set exclude section background*/
+.filters .exclude.tags.group {
+  background: rgba(158,133,186,.15);
+  box-shadow: 0 0 8px 5px rgba(158,133,186,.15);
+}
+
+/*Hide RSS button*/
+a.rss {
+display: none !important;
+}
