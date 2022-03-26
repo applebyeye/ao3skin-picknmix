@@ -1,0 +1,17 @@
+/*Set dashboard background*/
+#dashboard.region.own {
+  background: #111144;
+  opacity: 0.9;
+}
+
+/*Hide items*/
+a[href="/users/yourusername/inbox"],
+a[href="/users/applebyeye/works/drafts"],
+a[href="/users/applebyeye/series"],
+a[href="/users/applebyeye/creatorships"],
+a[href="/users/applebyeye/signups"],
+a[href="/users/applebyeye/assignments"],
+a[href="/users/applebyeye/claims"],
+a[href="/users/applebyeye/related_works"] {
+  display: none !important;
+}
