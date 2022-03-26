@@ -18,9 +18,9 @@ h1.heading span {
   display: none;
 }
 
-/*Landmark website title*/
+/*Replace website title*/
 h1.heading a::before {
-  content: "AO3";
+  content: "new text here";
   padding: 0px 10px;
 }
 
@@ -55,7 +55,7 @@ h1.heading sup {
   display: none;
 }
 
-/*Landmark named greeting*/
+/*Replace named greeting*/
 #greeting .user > li:first-child::before {
   content: "new text here";
   padding: 0.25em 0.75em;
