@@ -1,0 +1,77 @@
+/*Hide header*/
+#header {
+  display: none;
+}
+
+/*Hide website heading*/
+#header h1.heading {
+  display: none;
+}
+
+/*Hide website logo*/
+h1.heading .logo {
+  display: none;
+}
+
+/*Hide website title*/
+h1.heading span {
+  display: none;
+}
+
+/*Landmark website title*/
+h1.heading a::before {
+  content: "AO3";
+  padding: 0px 10px;
+}
+
+/*Hide 'beta' from website title*/
+h1.heading sup {
+  display: none !important;
+}
+
+/*Hide user*/
+#header #greeting {
+  display: none;
+}
+
+/*Hide profile pic*/
+#greeting p.icon {
+  display: none;
+}
+
+/*Set user nav background*/
+#greeting ul.user.navigation.actions {
+  background: #111144;
+  opacity: 0.9;
+}
+
+/*Hide primary nav*/
+#header ul.primary.navigation.actions {
+  display: none;
+}
+
+/*Hide named greeting*/
+#greeting .user > li:first-child > a {
+  display: none;
+}
+
+/*Landmark named greeting*/
+#greeting .user > li:first-child::before {
+  content: "new text here";
+  padding: 0.25em 0.75em;
+  display: inline-block;
+  line-height: 1.286;
+}
+
+/*Hide search bar*/
+ul.primary.navigation.actions .search {
+  display: none !important;
+}
+
+/*Align greeting with website title*/
+#greeting {
+  position: relative;
+  display: inline-block;
+  padding: 0.75em;
+  margin-right: -0.5em;
+}
